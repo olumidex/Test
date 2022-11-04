@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: #F5FBFF;
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    background: #fff;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+
+.logo img{
+    width: 140px;
+}
+
+a{
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    display: table;
+    width: 280px;
+    padding: 20px;
+}
+
+nav .fa{
+   
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+   
+    top: 12px;
+    margin-left: 10px;
+}
+
+a:hover{
+    background: #eee;
+    
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+
+.main{
+    position: relative;
+    padding: 30px;
+    width: 100%;
+}
+
+.main-top{
+    display: flex;
+    width: 100%;
+}
+
+.main-top .week{
+    position: absolute;
+    right: 0;
+    margin: 20px 80px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.main-top span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tee{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.main-work{
+    margin-left: 80px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.css{
+    margin-left: 450px;
+}
+
+.tradition{
+    display: flex;
+    padding-top: 30px;
+}
+
+.traditions img{
+    cursor: pointer;
+}
+
+.last-section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+}
+
+.last{
+    display: flex;
+    width: 100%;
+}
+
+.last h3{
+    color: #0F1E0D;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.saperate{
+    padding-left: 70px;
+}
+
+.sap{
+    padding-left: 70px;
+}
+
+.sa{
+    padding-left: 70px;
+}
+
+.circle{
+    background: aqua;
+    width: 30%;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.ss{
+    color: #655EB0;
+    text-align: center;
+    padding-top: 1px;
+    font-weight: 500;
+}
+
+.s{
+    color: #fff;
+    text-align: center;
+    padding-top: 1px;
+    font-weight: 500;
+}
+
+.saperate .circle{
+    background: #655EB0;
+}
+
+.sap .circle{
+    background: #DEDDEE;
+}
+
+.sa .circle{
+    background: #DEDDEE;
+}
+
+.last h5{
+    color: #00133D;
+}
+
+.last span{
+    color: #4A5877;
+}
+
+p{
+    color: #4A5877;
+}
+
+.shape{
+    background: #FFE0B7;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 220px;
+    left: 100px;
+}
